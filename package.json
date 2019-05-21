@@ -1,5 +1,5 @@
 {
-  "name": "eslint-rule-relative-imports-below-absolute-imports",
+  "name": "eslint-rule-absolute-imports-before-relative-imports",
   "version": "1.0.0",
   "description": "ESLint rule that makes sure absolute imports are always on top of relative imports",
   "main": "index.js",
