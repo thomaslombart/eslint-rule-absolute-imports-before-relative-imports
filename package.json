@@ -1,0 +1,16 @@
+{
+  "name": "eslint-rule-relative-imports-below-absolute-imports",
+  "version": "1.0.0",
+  "description": "ESLint rule that makes sure absolute imports are always on top of relative imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Thomas Lombart <t.lombart97@gmail.com> (https://thomlom.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  }
+}
