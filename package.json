@@ -6,11 +6,17 @@
   "scripts": {
     "test": "jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
   "keywords": [],
   "author": "Thomas Lombart <t.lombart97@gmail.com> (https://thomlom.dev)",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.16.0",
+    "husky": "^2.3.0",
     "jest": "^24.8.0"
   }
 }
